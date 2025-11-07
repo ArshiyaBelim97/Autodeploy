@@ -1,0 +1,26 @@
+{
+  "run_id": "a90e16f7",
+  "meta": {
+    "app_type": "python",
+    "flask_file": "app/app.py",
+    "flask_app_var": "app",
+    "handler_module": "app/app",
+    "handler_name": "handler",
+    "requirements": [
+      "awsgi"
+    ],
+    "run_id": "a90e16f7",
+    "region": "us-east-1",
+    "artifact_s3_bucket": "autodeploy-lambda-artifacts-a90e16f7",
+    "artifact_s3_key": "a90e16f7_lambda.zip"
+  },
+  "terraform_outputs": {
+    "api_url": "https://mock-api-terraform.execute-api.mock-region.amazonaws.com/"
+  },
+  "health": {
+    "ok": true,
+    "body": {
+      "message": "Hello from AI Autodeploy!"
+    }
+  }
+}
